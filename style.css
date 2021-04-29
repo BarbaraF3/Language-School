@@ -1,0 +1,261 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+    background-color: #fff3dd;
+}
+
+/* MOBITEL */
+body {
+    background-color: #fff3dd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    line-height: 30pt;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* TABLET */
+@media only screen and (min-device-width: 640px) {
+body {
+    background-color: #fff3dd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    line-height: 20pt;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+}
+
+/* MAIN */
+.wrapper {
+    max-width: 3000px; 
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    background-color:#fff3dd;
+}
+
+/* NAV */
+ul {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+.ul {
+    background-color: #88D18A;
+}
+li {
+    float: left;
+  }
+
+.li {
+    float: right;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: #723D46;
+  }
+li a:visited {
+	color: #ffff;
+}
+li a:focus {
+	font-weight: bold;
+	outline: none;
+}
+li a:active {
+	color: #7FB285;
+}
+.here{
+    background-color: #723D46;
+}
+
+/* TITLE */
+
+.menu-title {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.title-image {
+    text-align: center;
+    height: 200;
+    width: 100%;
+}
+
+/* SIDE MENU */
+
+.side {
+    font-family: 'Roboto', sans-serif;
+    width: 303px;
+    padding: 16px;
+    padding-bottom: 25px;
+    background: #88D18A;
+    border-radius: 4px;
+}
+.side-menu {
+    width: 100%;
+    padding-left: 32px;
+    flex-grow: 1;
+}
+.naslovnica {
+    padding: 24px;
+    margin: 16px auto;
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: solid #88D18A;
+    font-size: 20px;
+}
+.naslovnica-image{
+    padding: 24px;
+    margin: 16px auto;
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* SIDE MENU - NAV */
+
+.ul-2 {
+    background-color: #88D18A;
+    width: 70%;
+}
+
+/* POST */
+
+.tecaj-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.tecaj-content{
+    display: flex;
+    clear: both;
+    border: 4px;
+}
+.proiz-title {
+    margin: 0;
+    color: black;
+    float: left;
+}
+
+.link{
+    color: black;
+    float: left;
+    text-decoration: none;
+}
+.link:hover {
+    background-color: #fff3dd;
+  }
+.link:visited {
+    color: #723D46;
+    text-decoration: none;
+}
+.link:focus {
+	font-weight: bold;
+	outline: none;
+}
+.link:active {
+    color: #7FB285;
+    text-decoration: none;
+}
+
+.back{
+    float: right;
+    color: black;
+}
+.back:hover {
+    background-color: #7FB285;
+  }
+.back:visited {
+	color: #723D46;
+}
+.back:focus {
+	font-weight: bold;
+	outline: none;
+}
+.back:active {
+	color: #7FB285;
+}
+
+/* KATALOG */
+
+.katalog{
+    padding: 24px;
+    margin: 16px auto;
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: solid #88D18A;
+}
+.katalog-title{
+    text-align: center;
+}
+.katalog-image{
+    width: 100%;
+    text-align: center;
+}
+.katalog-content{
+    display: flex;
+    clear: both;
+    border: 4px;
+}
+
+/* TABLICA - PROIZVODI */
+
+.table {
+    text-align: center;
+}
+
+/* KONTAKT */
+
+.kontakt{
+	padding: 24px;
+	margin: 16px auto;
+    background-color: #88D18A;
+    border: black;
+    width: 50%;
+}
+.kontakt-body{
+    text-align: center;
+}
+
+.prijava {
+	padding: 24px;
+	margin: 16px auto;
+    background-color: #88D18A;
+    width: 50%;
+    text-align: center;
+}
+
+.poruka {
+    padding: 24px;
+	margin: 16px auto;
+	background-color: #88D18A;
+    width: 50%;
+    text-align: center;
+}
